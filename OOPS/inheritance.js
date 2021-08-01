@@ -8,6 +8,7 @@ class College{
         this.rank=rank;
     }
 }
+/***********************/
 class student extends College{ 
 
     student_Details(name,id){

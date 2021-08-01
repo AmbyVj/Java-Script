@@ -9,6 +9,7 @@ class student{
 let s1 = new student('Ava');
 console.log(s1.readingBook());
 
+//********************/
 class dept extends student{
     readingBook(){
         super.readingBook();

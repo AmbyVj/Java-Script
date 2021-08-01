@@ -3,15 +3,27 @@
     console.log("Immediately invokable function");
 })();
 
+// function
+function myfunc(name, callback) {
+    console.log('Hi' + ' ' + name);
+    callback();
+}
+
+// callback function
+function callMe() {
+    console.log('I am callback function');
+}
+
+// passing function as an argument
+myfunc('Ava', callMe);
+
+
 let x= function(a,b)  { 
      return a+b;
  }
- console.log(x(5,3));
+ console.log("Passing arguments : "+x(5,3));
 
- function prototypeFunc(){
 
- }
- console.log(prototypeFunc.prototype);  //{}
 function add(a,b)  { 
      return a+b;
  }

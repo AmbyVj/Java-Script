@@ -1,7 +1,8 @@
 var a = [12,4,32,9,2,7,1];
 
-console.log(typeof(a));
-console.log(a);
+console.log(typeof(a));  
+
+console.log("Array Elements :["+a+"]");
 
 a[2] = 95;
 console.log("Changed Value at index 2 : "+a[2]);
